@@ -1,0 +1,149 @@
+"roll20userid": "1211279"
+
+<body>
+<div>
+	<!-- Set up the Tabs -->
+	<input type="radio" class="sheet-tab sheet-tab1" name="attr_core-tab" value="1" title="Anjo" checked="checked"/> 
+	<span class="sheet-tab sheet-tab1" style='line-height: 40px;'>Anjo</span>
+	<input type="radio" class="sheet-tab sheet-tab2" name="attr_core-tab" value="2" title="Demon" /> 
+	<span class="sheet-tab sheet-tab2" style='line-height: 40px;'>Demônio</span>    
+	<!-- End Tab setup -->
+	
+	<div class="sheet-section-anjo"><!-- Core Tab -->
+		<!-- Stuff on the tab -->
+		<button name="roll_action" type="roll" value="&amp;{template:default} {{name=?{Descri&ccedil;&atilde;o}}} {{Atributo alvo=[[(2d6)&lt;?{Atributo}]]}} {{Digito Verificador=[[1d6]]}}"></button>
+        <img id="ficha" style="display: block; min-width: 900px; max-width: 900px; min-height: 500px; max-height: 500px;" src="http://roleplayers.com.br/wp-content/uploads/2017/08/background.png" alt="" />
+        <div id="Atributos" style="position: relative; height: 100px; width: 900px; top:0px; left: 0%;">
+            <input style="position: absolute; top: -475px; left: 370px; width: 180px; height: 25px;" name="attr_Anome" type="text" />
+            <select style="position: absolute; top: -443px; left: 387px; width: 163px; height: 25px;" name="attr_Arcanjo">
+        		<option value="Blandine">Blandine</option>
+		        <option value="David">David</option>
+        		<option value="Dominic">Dominic</option>
+		        <option value="Eli">Eli</option>
+        		<option value="Gabriel">Gabriel</option>
+		        <option value="Janus">Janus</option>
+        		<option value="Jean">Jean</option>
+        		<option value="Jordi">Jordi</option>
+		        <option value="Laurence">Laurence</option>
+        		<option value="Michael">Michael</option>
+		        <option value="Novalis">Novalis</option>
+		        <option value="Yves">Yves</option>
+        	</select>
+        	<select style="position: absolute; top: -475px; left: 601px; width: 170px; height: 25px;" name="attr_Coro">
+		        <option value="Elohim">Elohim</option>
+        		<option value="Grigori">Grigori</option>
+		        <option value="Kyriotetes">Kyriotetes</option>
+        		<option value="Malakim">Malakim</option>
+		        <option value="Mercurianos">Mercurianos</option>
+        		<option value="Ofanim">Ofanim</option>
+		        <option value="Querubim">Querubim</option>
+        		<option value="Serafim">Serafim</option>
+	        </select>
+        	<input style="position: absolute; top: -443px; left: 618px; width: 153px; height: 25px;" name="attr_APalavra" type="text" />
+        	<input style="position: absolute; top: -463px; left: 800px; width: 69px; height: 42px;" name="attr_AEssencia" type="text" />
+        </div>
+        <div id="Corporeo" style="position: relative; height: 50px; width: 300px; top:-605px; left: 0%;">
+            <input style="position: absolute; top: 118px; left: 248px; width: 40px;" name="attr_ACorporeo" type="text" />
+            <input style="position: absolute; top: 163px; left: 111px; width: 30px; height: 23px;" name="attr_AVeste1" type="text" />
+            <input style="position: absolute; top: 209px; left: 111px; width: 20px; height: 23px;" name="attr_AVeste2" type="text" />
+            <input style="position: absolute; top: 255px; left: 111px; width: 30px; height: 23px;" name="attr_AVeste3" type="text" />
+            <input style="position: absolute; top: 163px; left: 247px; width: 35px; height: 23px;" name="attr_ACorpo1" type="text" />
+            <input style="position: absolute; top: 209px; left: 257px; width: 25px; height: 23px;" name="attr_ACorpo2" type="text" />
+            <input style="position: absolute; top: 255px; left: 247px; width: 35px; height: 23px;" name="attr_ACorpo3" type="text" />
+            <input style="position: absolute; top: 204px; left: 176px; width: 35px; height: 23px;" name="attr_AFor&ccedil;a" type="text" />
+            <input style="position: absolute; top: 241px; left: 176px; width: 35px; height: 23px;" name="attr_AAgilidade" type="text" />
+        </div>
+        <div id="Etero" style="position: relative; height: 50px; width: 300px; top:-655px; left: 0%;">
+            <input style="position: absolute; top: 118px; left: 441px; width: 40px;" name="attr_AEtero" type="text" />
+            <input style="position: absolute; top: 162px; left: 309px; width: 35px; height: 24px;" name="attr_APontos" type="text" />
+            <input style="position: absolute; top: 163px; left: 450px; width: 33px; height: 23px;" name="attr_AMente" type="text" />
+            <input style="position: absolute; top: 255px; left: 477px; width: 46px; height: 31px;" name="attr_ADisonacia" type="text" />
+            <input style="position: absolute; top: 204px; left: 383px; width: 33px; height: 22px;" name="attr_AInteligencia" type="text" />
+            <input style="position: absolute; top: 241px; left: 383px; width: 33px; height: 22px;" name="attr_APrecisao" type="text" />
+        </div>
+        <div id="Celestial" style="position: relative; height: 50px; width: 300px; top:-705px; left: 0%;">
+            <input style="position: absolute; top: 118px; left: 658px; width: 40px;" name="attr_ACelestial" type="text" />
+            <input style="position: absolute; top: 163px; left: 514px; width: 33px; height: 23px;" name="attr_AcPontos" type="text" />
+            <input style="position: absolute; top: 163px; left: 651px; width: 33px; height: 23px;" name="attr_AAlma" type="text" />
+            <input style="position: absolute; top: 198px; left: 583px; width: 33px; height: 23px;" name="attr_AVontade" type="text" />
+            <input style="position: absolute; top: 237px; left: 583px; width: 33px; height: 25px;" name="attr_APrecepcao" type="text" />
+        </div>
+        <div id="Caixas" style="position: relative; height: 50px; width: 300px; top:-755px; left: 0%;">
+            <textarea style="position: absolute; top: 147px; left: 705px; width: 173px; height: 218px;" cols="50" name="attr_ASintonias" rows="4">Sintonias</textarea>
+            <textarea style="position: absolute; top: 398px; left: 705px; width: 173px; height: 96px;"  cols="50" name="attr_ADiscordias" rows="4">Discordias</textarea>
+            <textarea style="position: absolute; top: 315px; left: 140px; width: 160px; height: 155px;" cols="50" name="attr_Abox1" rows="4"></textarea>
+            <textarea style="position: absolute; top: 315px; left: 318px; width: 160px; height: 155px;" cols="50" name="attr_Abox2" rows="4"></textarea>
+            <textarea style="position: absolute; top: 315px; left: 495px; width: 160px; height: 155px;" cols="50" name="attr_Abox3" rows="4"></textarea>
+            
+        </div>
+    </div>
+	<div class="sheet-section-demon"><!-- Edges Tab -->
+		<!-- Stuff on the tab -->
+		<button name="roll_action" type="roll" value="&amp;{template:default} {{name=?{Descri&ccedil;&atilde;o}}} {{Atributo alvo=[[(2d6)&lt;?{Atributo}]]}} {{Digito Verificador=[[1d6]]}}"></button>
+		<img id="ficha" style="display: block; min-width: 900px; max-width: 900px; min-height: 500px; max-height: 500px;" src="http://roleplayers.com.br/wp-content/uploads/2018/01/background_demon.png" alt="" />
+		<div id="Atributos" style="position: relative; height: 100px; width: 900px; top:0px; left: 0%;">
+            <input style="position: absolute; top: -475px; left: 190px; width: 169px; height: 25px;" name="attr_Dnome" type="text" />
+            <select style="position: absolute; top: -446px; left: 205px; width: 155px; height: 25px;" name="attr_Principe">
+        		<option value="Andrealphus">Andrealphus</option>
+		        <option value="Asmodeus">Asmodeus</option>
+        		<option value="Baal">Baal</option>
+		        <option value="Beleth">Beleth</option>
+        		<option value="Belial">Belial</option>
+		        <option value="Haagenti">Haagenti</option>
+        		<option value="Kobal">Kobal</option>
+        		<option value="Kronos">Kronos</option>
+		        <option value="Malphas">Malphas</option>
+        		<option value="Nybbas">Nybbas</option>
+		        <option value="Saminga">Saminga</option>
+		        <option value="Valefor">Valefor</option>
+		        <option value="Vapula">Vapula</option>
+        	</select>
+        	<select style="position: absolute; top: -475px; left: 421px; width: 163px; height: 25px;" name="attr_Bando">
+		        <option value="Balserafins">Balserafins</option>
+        		<option value="Gênios">Gênios</option>
+		        <option value="Calabins">Calabins</option>
+        		<option value="Habbalah">Habbalah</option>
+		        <option value="Lilins">Lilins</option>
+        		<option value="Shedins">Shedins</option>
+		        <option value="Impuditas">Impuditas</option>
+	        </select>
+        	<input style="position: absolute; top: -446px; left: 429px; width: 155px; height: 25px;" name="attr_DPalavra" type="text" />
+        	<input style="position: absolute; top: -463px; left: 41px; width: 69px; height: 38px;" name="attr_DEssencia" type="text" />
+        </div>
+        <div id="Corporeo" style="position: relative; height: 50px; width: 300px; top:-605px; left: 0%;">
+            <input style="position: absolute; top: 106px; left: 243px; width: 40px;" name="attr_DCorporeo" type="text" />
+            <input style="position: absolute; top: 147px; left: 106px; width: 30px; height: 23px;" name="attr_DVeste1" type="text" />
+            <input style="position: absolute; top: 188px; left: 106px; width: 20px; height: 23px;" name="attr_DVeste2" type="text" />
+            <input style="position: absolute; top: 227px; left: 106px; width: 30px; height: 23px;" name="attr_DVeste3" type="text" />
+            <input style="position: absolute; top: 147px; left: 236px; width: 35px; height: 23px;" name="attr_DCorpo1" type="text" />
+            <input style="position: absolute; top: 188px; left: 246px; width: 25px; height: 23px;" name="attr_DCorpo2" type="text" />
+            <input style="position: absolute; top: 227px; left: 236px; width: 35px; height: 23px;" name="attr_DCorpo3" type="text" />
+            <input style="position: absolute; top: 183px; left: 171px; width: 35px; height: 23px;" name="attr_DFor&ccedil;a" type="text" />
+            <input style="position: absolute; top: 214px; left: 171px; width: 35px; height: 23px;" name="attr_DAgilidade" type="text" />
+        </div>
+        <div id="Etero" style="position: relative; height: 50px; width: 300px; top:-655px; left: 0%;">
+            <input style="position: absolute; top: 106px; left: 429px; width: 40px;" name="attr_DEtero" type="text" />
+            <input style="position: absolute; top: 147px; left: 298px; width: 35px; height: 24px;" name="attr_DPontos" type="text" />
+            <input style="position: absolute; top: 147px; left: 434px; width: 33px; height: 23px;" name="attr_DMente" type="text" />
+            <input style="position: absolute; top: 226px; left: 460px; width: 46px; height: 28px;" name="attr_DDisonacia" type="text" />
+            <input style="position: absolute; top: 183px; left: 371px; width: 33px; height: 22px;" name="attr_DInteligencia" type="text" />
+            <input style="position: absolute; top: 214px; left: 371px; width: 33px; height: 22px;" name="attr_DPrecisao" type="text" />
+        </div>
+        <div id="Celestial" style="position: relative; height: 50px; width: 300px; top:-705px; left: 0%;">
+            <input style="position: absolute; top: 106px; left: 638px; width: 40px;" name="attr_DCelestial" type="text" />
+            <input style="position: absolute; top: 147px; left: 497px; width: 33px; height: 23px;" name="attr_DcPontos" type="text" />
+            <input style="position: absolute; top: 147px; left: 629px; width: 33px; height: 23px;" name="attr_DAlma" type="text" />
+            <input style="position: absolute; top: 177px; left: 563px; width: 33px; height: 23px;" name="attr_DVontade" type="text" />
+            <input style="position: absolute; top: 208px; left: 563px; width: 33px; height: 25px;" name="attr_DPrecepcao" type="text" />
+        </div>
+        <div id="Caixas" style="position: relative; height: 50px; width: 300px; top:-755px; left: 0%;">
+            <textarea style="position: absolute; top: 145px; left: 672px; width: 173px; height: 165px;" cols="50" name="attr_DSintonias" rows="4">Sintonias</textarea>
+            <textarea style="position: absolute; top: 357px; left: 671px; width: 174px; height: 96px;"  cols="50" name="attr_DDiscordias" rows="4">Discordias</textarea>
+            <textarea style="position: absolute; top: 277px; left: 103px; width: 176px; height: 132px;" cols="50" name="attr_Dbox1" rows="4"></textarea>
+            <textarea style="position: absolute; top: 277px; left: 296px; width: 172px; height: 132px;" cols="50" name="attr_Dbox2" rows="4"></textarea>
+            <textarea style="position: absolute; top: 278px; left: 482px; width: 175px; height: 135px;" cols="50" name="attr_Dbox3" rows="4"></textarea>
+        
+        </div>
+	</div>
+</div>
+</body>
